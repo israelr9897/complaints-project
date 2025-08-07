@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שליחת תלונה אנונימית</title>
+</head>
+<body>
+    <main>
+        <form action="/sudmit" method="post">
+            <select required name="category" id="category">
+                <option value="food">אוכל</option>
+                <option value="Equipment">ציוד</option>
+                <option value="orders">פקודות</option>
+                <option value="other">אחר</option>
+            </select>
+            <textarea rows="5" required name="message" id="message" placeholder="נא פרט את תלונתך"></textarea>
+            <input type="submit" value="send">
+        </form>
+    </main>
+</body>
+</html>

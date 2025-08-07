@@ -1,5 +1,5 @@
-import express from "express";
+import router from "./rout.js";
 
 export function configRout(app){
-    app.use("/")
+    app.use("/", router)
 }
