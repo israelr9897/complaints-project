@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>שליחת תלונה אנונימית</title>
 </head>
-<body>
+
+<body dir="rtl">
     <main>
-        <form action="/sudmit" method="post">
-            <select required name="category" id="category">
-                <option value="food">אוכל</option>
-                <option value="Equipment">ציוד</option>
-                <option value="orders">פקודות</option>
-                <option value="other">אחר</option>
-            </select>
-            <textarea rows="5" required name="message" id="message" placeholder="נא פרט את תלונתך"></textarea>
-            <input type="submit" value="send">
+        <form class="form-camplaint" action="/sudmit" method="post">
+            <section>
+                <h1 id="welcome">שליחת תלונות</h1>
+                <h2 id="text"> נא הזן את כל הפרטים</h2>
+            </section>
+            <section class="category-message">
+                <select required name="category" id="category" aria-placeholder="iuhiuhiuhi">
+                    <option disabled selected hidden>בחר קטגוריה</option>
+                    <option value="food">אוכל</option>
+                    <option value="Equipment">ציוד</option>
+                    <option value="orders">פקודות</option>
+                    <option value="other">אחר</option>
+                </select>
+                <textarea required name="message" id="message" placeholder="נא פרט את תלונתך"></textarea>
+
+            </section>
+            <input class="next" type="submit" value="שלח תלונה">
         </form>
     </main>
 </body>
+
 </html>
