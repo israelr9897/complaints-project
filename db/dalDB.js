@@ -1,7 +1,7 @@
 import { db } from "./connect.js";
 const NAME_TABLE = "complaints";
 
-export async function getComplaintsDB() {
+export async function getAllComplaintsDB() {
   try {
     return db.collection(NAME_TABLE).find().toArray();
   } catch (error) {

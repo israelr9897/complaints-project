@@ -14,9 +14,16 @@ form {
     display: inline-block;
     background-color: white;
     width: 80%;
-    height: 37%;
     margin-right: 10%;
-    margin-top: 30%;
+    margin-top: 20%;
+    border-radius: 5px;
+}
+#admin {
+    display: inline-block;
+    background-color: white;
+    width: 80%;
+    margin-right: 10%;
+    /* margin-top: 30%; */
     border-radius: 5px;
 }
 
@@ -33,32 +40,41 @@ form section {
 
 #welcome {
     font-size: 180%;
+    margin-right: 18%;
 }
 
 #text {
-    margin-right: -3%;
+    margin-right: 15%;
     font-size: 130%;
 
 }
 
+.login {
+    display: block;
+    margin-right: 10%;
+    margin-top: 15%;
+    font-size: 20px;
+}
 .input-password {
     display: block;
     margin-right: 10%;
-    margin-top: 10%;
+    /* margin-top: 15%; */
     font-size: 20px;
 }
 
 #pass {
-    display: block;
+    display: inline-block;
+    margin-right: -5%;
     margin-bottom: 10px;
 }
 
 #password {
     display: block;
     border: 1px solid #7b7b7b;
-    width: 87%;
+    width: 98%;
     height: 30px;
-    margin-bottom: 15px;
+    margin-right: -5%;
+    margin-bottom: 10%;
     border-radius: 5px;
     
 }
@@ -89,11 +105,46 @@ form section {
     display: block;
     background-color: #2f57ff;
     width: 80%;
-    height: 35px;
+    height: 15%;
     border-radius: 5px;
     color: white;
-    margin-right: 10%;
-    margin-top: 5%;
+    /* margin-right: 10%;
+    margin-top: 10%; */
+    font-size: 20px;
+    margin: 10% 10%;
+
+}
+
+.enter {
+    display: block;
+    background-color: #2f57ff;
+    width: 90%;
+    height: 15%;
+    border-radius: 5px;
+    color: white;
+    /* margin-top: 10%; */
+    margin-right: 5%;
+    margin-bottom: 10%;
     font-size: 20px;
 
+}
+
+.vi{
+    display: inline-block;
+    color: #2f57ff;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-right: -15%;
+}
+.thankYou{
+    display: inline-block;
+    margin-top: 35% ;
+}
+
+#toHome{
+    margin-right: -10%;
+}
+
+.list {
+    background-color: aquamarine;
 }
