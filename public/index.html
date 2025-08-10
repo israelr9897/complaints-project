@@ -11,16 +11,19 @@
 <body dir="rtl">
     <main>
         <form action="/complaint.html">
-            <section class="w-t">
+            <section class="login">
                 <h1 id="welcome">ברוכים הבאים</h1>
                 <h2 id="text"> למערכת הגשת תלונות</h2>
             </section>
-            <section class="input-password">
-                <label id="pass" for="password">סיסמת מנהל</label>
-                <input type="password" id="password" name="password" placeholder="מנהל הכנס את סיסמתך כאן">
-            </section>
             <input class="next" type="submit" value="הבא">
         </form>
+            <form id="admin" action="/login" method="post">
+                <section class="input-password">
+                    <label id="pass" for="password">התחבר כמנהל</label>
+                    <input type="password" id="password" name="password" placeholder="מנהל הכנס את סיסמתך כאן">
+                </section>
+                <input class="enter" type="submit" value="היכנס">
+            </form>
     </main>
 </body>
 
