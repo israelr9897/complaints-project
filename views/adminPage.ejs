@@ -20,6 +20,7 @@
             margin-right: 10%;
             margin-top: 30%;
             border-radius: 5px;
+
         }
 
         h1 {
@@ -39,12 +40,26 @@
             display: block;
             margin-top: 10%;
         }
+
+        .next {
+            display: block;
+            background-color: #2f57ff;
+            width: 80%;
+            height: 15%;
+            border-radius: 5px;
+            color: white;
+            /* margin-right: 10%;
+    margin-top: 10%; */
+            font-size: 20px;
+            margin: 10% 10%;
+
+        }
     </style>
 </head>
 
 <body dir="rtl">
     <main>
-        <form action="">
+        <form action="/">
             <section>
                 <h1>תלונות שהתקבלו</h1>
                 <ul class="list">
@@ -61,6 +76,7 @@
                         <% }) %>
                 </ul>
             </section>
+            <input class="next" id="toHome" type="submit" value=" לדף הבית 🏠">
         </form>
     </main>
 </body>
